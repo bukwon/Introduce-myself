@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/intro_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/idphoto"
+        android:text="학교 : 한밭대학교\n학년 : 3학년\n학번 : 20177146\n학과 : 정보통신공학과\n기타 : 군산대에서 2년 수료 후\n한밭대학교로 편입옴"/>
+    <Button
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="학생증(편입전/ 후)"/>
+    <ImageView
+        android:id="@+id/idphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/photo_u1"
+        android:layout_below="@id/id"
+        android:maxHeight="200dp"
+        android:maxWidth="160dp" />
+    <Button
+        android:id="@+id/exit_intro3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="화면으로" />
+
+
+</RelativeLayout>

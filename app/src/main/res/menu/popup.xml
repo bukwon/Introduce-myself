@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ddi"
+        android:title="띠 종류"/>
+    <item
+        android:id="@+id/army"
+        android:title="군대여부"/>
+    <item
+        android:id="@+id/girl"
+        android:title="여친"/>
+    <item
+        android:id="@+id/s_state"
+        android:title="학교는 재학중인가"/>
+
+
+</menu>

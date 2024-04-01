@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#C0C0C0">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요? 김부권입니다^^\n지금부터 제 소개를 시작하겠습니다."
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/menu_image"
+        android:layout_width="150pt"
+        android:layout_height="100pt"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/menu_image"/>
+    <Button
+        android:id="@+id/myself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_below="@id/menu_image"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="저를 소개합니다"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:textColor="#ffffff"
+        android:background="#212121"/>
+    <Button
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_below="@id/myself"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="가족을 소개합니다"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:textColor="#ffffff"
+        android:background="#212121"/>
+    <Button
+        android:id="@+id/school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_below="@id/family"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="학교를 소개합니다"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:textColor="#ffffff"
+        android:background="#212121"/>
+
+</RelativeLayout>
